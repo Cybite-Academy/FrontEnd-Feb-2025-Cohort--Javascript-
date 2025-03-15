@@ -1,0 +1,2 @@
+- declaring multiple variables
+- assigning multiple variables 
