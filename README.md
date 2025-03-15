@@ -7,3 +7,4 @@
 - Datatype [string, number, boolean]
 - typeof operator
 - variable I
+- variable II
