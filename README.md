@@ -8,3 +8,4 @@
 - typeof operator
 - variable I
 - variable II
+- String and String methods
