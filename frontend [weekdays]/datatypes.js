@@ -29,7 +29,6 @@ console.log(1 + 100);
 console.log("louis_chidera4");                                                                                                                                                                                                            
 console.log("louis4.tobechukwu");
 console.log("louis_ifeoma");
-
 //number
 console.log(34);
 console.log(110011+110111-11001); 

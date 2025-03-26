@@ -10,4 +10,5 @@
 - variable II
 - String and String methods
 - Number and Number methods
-
+- Js Math methods
+- Conditionals 
