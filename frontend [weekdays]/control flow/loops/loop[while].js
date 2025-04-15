@@ -27,7 +27,7 @@ while (i <= 10) {
   i++;
   console.log(i);
 }
-  */
+*/
 
 //ex: 2
 let count = 0;
@@ -44,8 +44,10 @@ while (count <= 30) {
 }
   */
 
-let i = 10;
-while (i >= 0){
-    console.log(i);
-    i--;
-}
+// let i = 10;
+// while (i >= 0){
+//     console.log(i);
+//     i--;
+// }
+
+
