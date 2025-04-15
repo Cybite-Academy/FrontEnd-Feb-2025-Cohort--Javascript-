@@ -6,21 +6,56 @@ function name(params?) {
 
 //function definitions
 /*
+let x = 'hello earth';
+console.log(x);
+console.log(x);
+console.log(x);
+
 function sayHello() {
   console.log("hello world");
 }
 sayHello();
 */
 
-//functions parameters
-/*
+/* //functions parameters
 function fullName(name, lastname) {
   console.log(`Hello Mr, ${name} ${lastname}`);
 }
+  
 
 fullName("O'neil", 'Obidiaso');
 fullName("Chideria", 'Louis');
 fullName("John", 'Doe');
+*/
+
+/*
+function fullName (firstname, lastname){
+  console.log(`Hello, ${firstname} ${lastname}, welcome to cybite academy.`);
+}
+
+fullName("O'Neil",'Obidiaso'); // args can not be more than the params, params can be more than args
+fullName("John",'Doe'); 
+*/
+
+/*
+//define function
+function personInfo (name, age, streetAddress){
+  console.log(`My name is ${name}, I am ${age} old. I live at ${streetAddress}`);
+}
+
+//call
+personInfo('john', 30, '12 fake street');
+personInfo('peter', 50, '50 fake street');
+*/
+
+//example
+/*
+function sayHello(){
+  console.log('hello world')
+}
+for(let i=0; i<3; i++){
+  sayHello();
+}
 */
 
 //default parameters
@@ -60,12 +95,12 @@ let sumAll = sumOfOddNumbersRange(1, 73) + sumOfEvenNumbersRange(10, 50);
 console.log(sumAll);
 */
 
-//ways of writing functions
-
 `
-// function definition
+//------ ways of writing functions ------
+
+//function definition
 function name(params) {
-    
+  console.log("hello world");
 }
 
 
@@ -77,7 +112,7 @@ let product = function Num(a, b){
 console.log(product(3, 4));
 
 
-//2. anonymous function
+//2. anonymous function i.e a function without a name
 let division = function (a, b) {
   let result = 0;
   if (b === 0) {
@@ -89,22 +124,22 @@ let division = function (a, b) {
        return result;
        */
     return "you can't divide a number by zero";
-  }
-  return a / b;
-};
-
-console.log(division(2, 0));
-
-3. Arrow function [shorter syntax for functions]
-const subtract = (a, b) => {
-  return a - b;
-};
-console.log(subtract(2, 4));
-
-// a shorter way
-const subtract = (a, b) => a - b;
-console.log(subtract(5, 4));
-`;
+    }
+    return a / b;
+    };
+    
+    console.log(division(2, 0));
+    
+    3. Arrow function [shorter syntax for functions]
+    const subtract = (a, b) => {
+      return a - b;
+      };
+      console.log(subtract(2, 4));
+      
+      // a shorter way
+      const subtract = (a, b) => a - b;
+      console.log(subtract(5, 4));
+      `;
 
 //function hoisting
 // sayHello();
@@ -112,8 +147,8 @@ console.log(subtract(5, 4));
 //   console.log("hello world");
 // }
 
-let sayhello = () => "hello world 2";
-console.log(sayhello());
+// let sayhello = () => "hello world 2";
+// console.log(sayhello());
 
-sayhello = 8;
-console.log(sayhello);
+// sayhello = 8;
+// console.log(sayhello);
