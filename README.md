@@ -12,5 +12,9 @@
 - Number and Number methods
 - Js Math methods
 - Conditionals 
-- arrays
-- array methods
+- Arrays
+- Array methods
+- Loops
+- Functions
+- Objects
+- Object Methods
