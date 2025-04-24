@@ -18,3 +18,4 @@
 - Functions
 - Objects
 - Object Methods
+- DOM manipulation
